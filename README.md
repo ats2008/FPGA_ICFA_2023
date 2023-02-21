@@ -13,6 +13,7 @@ The MAX_10_Board has a collection of interfaces including two external GPIO head
 beyond the MAX_10_Board, on-board USB-to-serial interface device for interfacing to a PC, as well as
 general user peripheral with LEDs, 7-segment displays and push-buttons
 
+
 See a set of slides for the school here :
 - [ICFA : Field Programmable Gate Array (FPGA) Session](https://cernbox.cern.ch/s/iaIdKIaKCcFOSqc)
 
@@ -38,22 +39,21 @@ The following excercises have been designed to get you started with the toolchai
  - `3_HEX_COUNTER/` 
     - A Counter with outputs encoded and displayed in a 7-Segment Display
 ### Exercise 4 :
- - `8bit_Counter_modelsim_simulation/`
+ - `4_Counter_8b/`
    - An 8 bit counter is implemented
    - A testbench is developed for checking the logic
-
-Additional Exececise available in the [`leanDev`](https://github.com/abunickabhi/FPGA_ICFA_2023/tree/leanDev) branch
 ### Exercise 5 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
- - `5_PseudoRandomNumberGen/`
+ - `5_PseudoRandomNumgerGen/`
    - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
    - `5_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
    - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
-
+   
 ### Fix for `libpng`  error
 ```
 sudo add-apt-repository ppa:linuxuprising/libpng12
 sudo apt install libpng12-0
 ```
-- TIFR, Mumbai
-- February, 2023
+_TIFR, Mumbai_
+_February, 2023_
+
